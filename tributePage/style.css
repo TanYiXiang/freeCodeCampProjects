@@ -1,0 +1,52 @@
+body{
+  background-image: url('https://www.dropbox.com/s/bftw2s0u83hokd3/victorian.jpg?raw=1');
+}
+
+#title{
+  text-align:left;
+  font-family: "Roboto Slab",serif;
+  font-size:3em;
+}
+
+#titleDescription{
+ margin-top: 10px;
+ font-size:1.1em;
+ font-family: sans-serif;
+ text-align:left;
+}
+
+#separator{
+  height:1px;
+  background-color:black;
+}
+
+#tributeCard{
+  background:#C0C0C0;
+  text-align:center;
+  margin:auto;
+  border: 1px solid #ccc;
+  width: 1000px;
+  margin-top:30px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#tribute-info{
+  font-size:0.9em;
+  text-align:justify;
+  font-family: sans-serif;
+}
+
+#image{
+  max-width:100%;
+  height:auto;
+  display:block;
+}
+
+#img-div{
+  text-align:center;
+}
+
+#quote{
+font-style: italic;
+}
