@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body{
+  background-color:#6f2da8;
+  text-align:center;
+}
+
+#title{
+  color: white;
+  font-family:courier;
+}
+
+#description{
+  color:white;
+  font-family:times;
+  margin-top: -10px;
+  font-size:1.1em;
+}
+
+#survey-section{
+  background-color:#71508a;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top:0.1px;
+  max-width:58%;
+}
+
+label{
+  color:white;
+  font-size:1.1em;
+  font-family:"Poppins";
+}
+
+select{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:80%;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size:1.1em;
+  color:#808080;
+  padding: 12px 20px;
+  margin-top:8px;
+}
+
+.input-field{
+  width: 80%;
+  padding: 12px 20px;
+  margin-top:8px;
+  margin-left:auto;
+  margin-right:auto;
+  border: 1px solid #ccc;
+  display:block;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color:#808080;
+  font-size: 1.1em;
+  text-align:center;
+}
+
+.sect{
+  margin-top:30px;
+  display:block;
+}
+
+.section-description{
+  color:white;
+  font-size:1.2em;
+  margin-bottom:-1px;
+  font-family:"Poppins";
+  text-align:center;
+}
+
+select{
+  text-align-last:center;
+}
+
+#yes{
+  margin-left:10px;
+}
+
+span{
+  color:white;
+  font-size:1.1em;
+  font-family:"Poppins";
+}
+
+#comment{
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  width:80%;
+  font-family:"Poppins";
+  font-size:1em;
+  color:#808080;
+}
+
+#submit{
+  background-color: green;
+  width:80%;
+  margin-top:20px;
+  font-size:1.1em;
+  font-family:"Poppins";
+  color: white;
+}
