@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+
+#quote-box{
+  margin:0;
+  max-width:50%;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family:'Raleway',sans-serif;
+}
+
+#author{
+  text-align:right;
+}
+
+#new-quote{
+  float:right;
+}
+
+#new-quote:hover{
+  opacity:0.9;
+}
