@@ -1,0 +1,64 @@
+body{
+  background-color: #4a808b;
+  display:flex;
+  align-items:center;
+  padding-top:10%;
+  justify-content:center;
+}
+
+#display{
+  font-family:Lucida Console;
+    text-align:center;
+    background-color:#2f4859;
+    font-size:20px;
+    padding-top:15px;
+    margin:-10px 80px;
+    height:40px;
+    color:white;
+}
+
+#padSection{
+  display:flex;
+  flex-wrap:wrap;
+  padding-top: 30px;
+  align-items:center;
+  justify-content:center;
+}
+
+#title{
+  font-family:Lucida Console;
+    padding-top:"15px";
+    font-size:20px;
+    text-align:center;
+    color:white;
+}
+
+#drum-machine{
+   background-color:#4A708B;
+   height:520px;
+   width:400px;
+   border-radius:10px;
+   border:2px solid black;
+}
+
+.drum-pad{
+  height:100px;
+  width:100px;
+  display:flex;
+  font-size: 60px;
+  background-color:#4a508b;
+  align-items:center;
+  border: 2px solid black;
+  justify-content:center;
+  margin:10px;
+  color:white;
+  border-radius:10px;
+}
+
+.drum-pad:hover{
+  cursor:pointer;
+}
+
+.drum-pad:active{
+  background-color:#3c386a;
+}
