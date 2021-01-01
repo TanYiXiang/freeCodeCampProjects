@@ -5,7 +5,7 @@
 Built a random quote machine 
 
 ## Frameworks
-Bootstrap + JQury
+Bootstrap + JQuery
 
 ## Purpose
 * Get familiar with basic front-end development frameworks
