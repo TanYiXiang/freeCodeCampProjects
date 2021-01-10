@@ -1,0 +1,69 @@
+@font-face
+{
+  font-family: digital;
+  src: url(https://res.cloudinary.com/thepeted/raw/upload/v1507751384/DSDIGI_ctlean.ttf);
+}
+
+
+body{
+  background-color: #e8e6e4
+}
+
+#main{
+  background-color: #F4F3F2;
+  border: 2px solid black;
+  border-radius:10px;
+  margin:auto;
+  text-align:center;
+  margin-top:100px;
+  height:650px;
+  width:500px;
+}
+
+#title{
+  margin-top:10px;
+  font-family:'Consolas';
+  font-weight:bold;
+}
+
+#display{
+  font-family: 'digital';
+  background-color:	#CFDBC5;
+  border: 3px inset #fff;
+  margin: auto;
+  width: 90%;
+  font-size:40px;
+  height:65px;
+  text-align:right;
+  padding-right:20px;
+  border-radius: 8px;
+  overflow:auto;
+}
+
+.container{
+  margin-top:20px; 
+  margin-left:20px;
+}
+
+button{
+  height:80px;
+  width:90px;
+  margin:10px;
+}
+
+#clear{
+  width: 200px;
+}
+
+#equals{
+  height:180px;
+}
+
+#zero{
+  width:200px;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
